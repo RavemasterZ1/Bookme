@@ -1,0 +1,16 @@
+&.To create a manifest file, open a text editor and type the following;
+Main-class: MyFirstProject.Login
+/*Make sure the application is tested. Do another compilation to make sure no errors occur and 
+then type the following in CMD to package all the class files into a jar file.*/
+jar-cvfm Prototype.jar manifest.txt MyFirstProject 
+/* .class
+ a.The jar (Java Archive) parameter first
+ b. c(class file), v(verbose),f(format),m(manifest)
+ c.Prototype.jar (Name of our package file)
+ d. Call the manifest file.*/
+ e.If the class files are in a package, mention the package name first*/
+ f./* .class(add all the class files found in the directory to the jar)
+
+there are two ways for your jar fileto be invoked
+1.Double-click on the jar file
+2.Run it from cmd(the name of the file with.jar
