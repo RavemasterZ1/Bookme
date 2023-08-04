@@ -185,7 +185,7 @@ public class BookTicket extends JFrame implements ActionListener
               try{
 				Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
-				Connection con = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-2I7EIN8;DatabaseName=StarTrust;user = sa;password=Babatounde1998");
+				Connection con = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-2I7EIN8;DatabaseName=StarTrust;user = Put_your_database_name;password=Put_your_password");
 
 				PreparedStatement ps = con.prepareStatement("insert into [Passenger Information] values(?,?,?,?,?,?,?,?,?)");
 				Random r= new Random();
